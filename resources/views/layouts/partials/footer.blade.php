@@ -18,7 +18,7 @@
                                     @endif
 {{--                                    <li><i class="footer-contacts__icon far fa-envelope"></i> stroyka@example.com</li>--}}
                                     @foreach($shop->phones as $item)
-                                        <li><i class="footer-contacts__icon fas fa-mobile-alt"></i>{{ $item->operator }} {{ $item->phone }}</li>
+                                        <li><i class="footer-contacts__icon fas fa-mobile-alt"></i>{{ trans($item->operator) }} {{ $item->phone }}</li>
                                     @endforeach
 {{--                                    <li><i class="footer-contacts__icon far fa-clock"></i> Mon-Sat 10:00pm - 7:00pm</li>--}}
                                 </ul>
