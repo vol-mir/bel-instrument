@@ -6,6 +6,7 @@
     "delivery_information": "Delivery information",
     "privacy_policy": "Privacy Policy",
     "brands": "Brands",
+    "contacts": "Контакты",
     "contact_us": "Contact Us",
     "returns": "Returns",
     "my_account": "My Account",
@@ -15,5 +16,7 @@
     "newsletter": "Newsletter",
     "specials": "Specials",
     "gift_certificates": "Gift Certificates",
-    "affiliate": "Affiliate"
+    "affiliate": "Affiliate",
+    "track_order": "Track order",
+    "blog": "Blog"
 }

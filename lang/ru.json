@@ -6,7 +6,8 @@
     "delivery_information": "Информация о доставке",
     "privacy_policy": "Политика конфиденциальности",
     "brands": "Бренды",
-    "contact_us": "Контакты",
+    "contacts": "Контакты",
+    "contact_us": "Наши контакты",
     "returns": "Возвраты",
     "my_account": "Мой кабинет",
     "store_location": "Расположение магазина",
@@ -15,5 +16,7 @@
     "newsletter": "Новостная рассылка",
     "specials": "Специальные предложения",
     "gift_certificates": "Подарочные сертификаты",
-    "affiliate": "Партнер"
+    "affiliate": "Партнер",
+    "track_order": "Отследить заказ",
+    "blog": "Блог"
 }
