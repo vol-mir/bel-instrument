@@ -1502,7 +1502,7 @@
 {{--                                                            </ul>--}}
 {{--                                                            <div class="dropcart__product-meta">--}}
 {{--                                                                <span class="dropcart__product-quantity">2</span> ×--}}
-{{--                                                                <span class="dropcart__product-price">$699.00</span>--}}
+{{--                                                                <span class="dropcart__product-price">699.00 BYN</span>--}}
 {{--                                                            </div>--}}
 {{--                                                        </div>--}}
 {{--                                                        <button type="button"--}}
@@ -1524,7 +1524,7 @@
 {{--                                                                    Tool IRadix DPS3000SY 2700 watts</a></div>--}}
 {{--                                                            <div class="dropcart__product-meta">--}}
 {{--                                                                <span class="dropcart__product-quantity">1</span> ×--}}
-{{--                                                                <span class="dropcart__product-price">$849.00</span>--}}
+{{--                                                                <span class="dropcart__product-price">849.00 BYN</span>--}}
 {{--                                                            </div>--}}
 {{--                                                        </div>--}}
 {{--                                                        <button type="button"--}}
@@ -1549,7 +1549,7 @@
 {{--                                                            </ul>--}}
 {{--                                                            <div class="dropcart__product-meta">--}}
 {{--                                                                <span class="dropcart__product-quantity">3</span> ×--}}
-{{--                                                                <span class="dropcart__product-price">$1,210.00</span>--}}
+{{--                                                                <span class="dropcart__product-price">1,210.00 BYN</span>--}}
 {{--                                                            </div>--}}
 {{--                                                        </div>--}}
 {{--                                                        <button type="button"--}}
@@ -1564,19 +1564,19 @@
 {{--                                                    <table>--}}
 {{--                                                        <tr>--}}
 {{--                                                            <th>Subtotal</th>--}}
-{{--                                                            <td>$5,877.00</td>--}}
+{{--                                                            <td>5,877.00 BYN</td>--}}
 {{--                                                        </tr>--}}
 {{--                                                        <tr>--}}
 {{--                                                            <th>Shipping</th>--}}
-{{--                                                            <td>$25.00</td>--}}
+{{--                                                            <td>25.00 BYN</td>--}}
 {{--                                                        </tr>--}}
 {{--                                                        <tr>--}}
 {{--                                                            <th>Tax</th>--}}
-{{--                                                            <td>$0.00</td>--}}
+{{--                                                            <td>0.00 BYN</td>--}}
 {{--                                                        </tr>--}}
 {{--                                                        <tr>--}}
 {{--                                                            <th>Total</th>--}}
-{{--                                                            <td>$5,902.00</td>--}}
+{{--                                                            <td>5,902.00 BYN</td>--}}
 {{--                                                        </tr>--}}
 {{--                                                    </table>--}}
 {{--                                                </div>--}}
@@ -1731,7 +1731,7 @@
                         </div>
                         <div class="block-features__content">
                             <div class="block-features__title">Free Shipping</div>
-                            <div class="block-features__subtitle">For orders from $50</div>
+                            <div class="block-features__subtitle">For orders from 50 BYN</div>
                         </div>
                     </div>
                     <div class="block-features__divider"></div>
@@ -1946,7 +1946,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $749.00
+                                            749.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -2115,7 +2115,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,019.00
+                                            1,019.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -2279,7 +2279,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $850.00
+                                            850.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -2444,8 +2444,8 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            <span class="product-card__new-price">$949.00</span>
-                                            <span class="product-card__old-price">$1189.00</span>
+                                            <span class="product-card__new-price">949.00 BYN</span>
+                                            <span class="product-card__old-price">1189.00 BYN</span>
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -2609,7 +2609,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,700.00
+                                            1,700.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -2771,7 +2771,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $3,199.00
+                                            3,199.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -2931,7 +2931,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $24.00
+                                            24.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -3091,7 +3091,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $15.00
+                                            15.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -3255,7 +3255,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $19.00
+                                            19.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -3421,7 +3421,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $15.00
+                                            15.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -3585,7 +3585,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $149.00
+                                            149.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -3751,7 +3751,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $666.99
+                                            666.99 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -3911,7 +3911,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $649.00
+                                            649.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -4073,7 +4073,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,800.00
+                                            1,800.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -4233,7 +4233,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $290.00
+                                            290.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -4399,7 +4399,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,499.00
+                                            1,499.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -4596,7 +4596,7 @@
                                         Availability: <span class="text-success">In Stock</span>
                                     </div>
                                     <div class="product-card__prices">
-                                        $749.00
+                                        749.00 BYN
                                     </div>
                                     <div class="product-card__buttons">
                                         <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -4765,7 +4765,7 @@
                                         Availability: <span class="text-success">In Stock</span>
                                     </div>
                                     <div class="product-card__prices">
-                                        $1,019.00
+                                        1,019.00 BYN
                                     </div>
                                     <div class="product-card__buttons">
                                         <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -4927,7 +4927,7 @@
                                         Availability: <span class="text-success">In Stock</span>
                                     </div>
                                     <div class="product-card__prices">
-                                        $850.00
+                                        850.00 BYN
                                     </div>
                                     <div class="product-card__buttons">
                                         <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -5090,8 +5090,8 @@
                                         Availability: <span class="text-success">In Stock</span>
                                     </div>
                                     <div class="product-card__prices">
-                                        <span class="product-card__new-price">$949.00</span>
-                                        <span class="product-card__old-price">$1189.00</span>
+                                        <span class="product-card__new-price">949.00 BYN</span>
+                                        <span class="product-card__old-price">1189.00 BYN</span>
                                     </div>
                                     <div class="product-card__buttons">
                                         <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -5253,7 +5253,7 @@
                                         Availability: <span class="text-success">In Stock</span>
                                     </div>
                                     <div class="product-card__prices">
-                                        $1,700.00
+                                        1,700.00 BYN
                                     </div>
                                     <div class="product-card__buttons">
                                         <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -5413,7 +5413,7 @@
                                         Availability: <span class="text-success">In Stock</span>
                                     </div>
                                     <div class="product-card__prices">
-                                        $3,199.00
+                                        3,199.00 BYN
                                     </div>
                                     <div class="product-card__buttons">
                                         <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -5571,7 +5571,7 @@
                                         Availability: <span class="text-success">In Stock</span>
                                     </div>
                                     <div class="product-card__prices">
-                                        $24.00
+                                        24.00 BYN
                                     </div>
                                     <div class="product-card__buttons">
                                         <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -5940,7 +5940,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $749.00
+                                            749.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -6107,7 +6107,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,019.00
+                                            1,019.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -6271,7 +6271,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $850.00
+                                            850.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -6434,8 +6434,8 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            <span class="product-card__new-price">$949.00</span>
-                                            <span class="product-card__old-price">$1189.00</span>
+                                            <span class="product-card__new-price">949.00 BYN</span>
+                                            <span class="product-card__old-price">1189.00 BYN</span>
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -6599,7 +6599,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,700.00
+                                            1,700.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -6759,7 +6759,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $3,199.00
+                                            3,199.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -6919,7 +6919,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $24.00
+                                            24.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -7077,7 +7077,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $15.00
+                                            15.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -7241,7 +7241,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $19.00
+                                            19.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -7405,7 +7405,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $15.00
+                                            15.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -7569,7 +7569,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $149.00
+                                            149.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -7733,7 +7733,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $666.99
+                                            666.99 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -7893,7 +7893,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $649.00
+                                            649.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -8053,7 +8053,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,800.00
+                                            1,800.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -8213,7 +8213,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $290.00
+                                            290.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -8377,7 +8377,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,499.00
+                                            1,499.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -8858,7 +8858,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $749.00
+                                            749.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -9025,7 +9025,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,019.00
+                                            1,019.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -9187,7 +9187,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $850.00
+                                            850.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -9358,8 +9358,8 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            <span class="product-card__new-price">$949.00</span>
-                                            <span class="product-card__old-price">$1189.00</span>
+                                            <span class="product-card__new-price">949.00 BYN</span>
+                                            <span class="product-card__old-price">1189.00 BYN</span>
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -9521,7 +9521,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $1,700.00
+                                            1,700.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -9681,7 +9681,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $3,199.00
+                                            3,199.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -9847,7 +9847,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $24.00
+                                            24.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -10005,7 +10005,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $15.00
+                                            15.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
@@ -10167,7 +10167,7 @@
                                             Availability: <span class="text-success">In Stock</span>
                                         </div>
                                         <div class="product-card__prices">
-                                            $19.00
+                                            19.00 BYN
                                         </div>
                                         <div class="product-card__buttons">
                                             <button class="btn btn-primary product-card__addtocart" type="button">Add To
