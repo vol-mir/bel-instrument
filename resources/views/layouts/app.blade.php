@@ -42,6 +42,7 @@
                                 <use xlink:href="images/sprite.svg#menu-18x14"></use>
                             </svg>
                         </button>
+                            <h2>Инструмент</h2>
 {{--                        <a class="mobile-header__logo" href="index.html">--}}
 {{--                            <!-- mobile-logo -->--}}
 {{--                            <svg xmlns="http://www.w3.org/2000/svg" width="120px" height="20px">--}}
@@ -328,6 +329,7 @@
             <!-- .topbar / end -->
             <div class="site-header__middle container">
                 <div class="site-header__logo">
+                        <h2>Инструмент</h2>
 {{--                    <a href="index.html">--}}
 {{--                        <!-- logo -->--}}
 {{--                        <svg xmlns="http://www.w3.org/2000/svg" width="196px" height="26px">--}}

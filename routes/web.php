@@ -16,8 +16,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('dummy');
+//Route::get('/', function () {
+//    return view('dummy');
+//});
+Route::middleware('guest')->group(function () {
+    Route::get('/', [HomeController::class, 'home'])->name('home');
 });
 
 Route::middleware('guest')->group(function () {
