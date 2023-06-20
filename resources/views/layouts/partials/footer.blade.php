@@ -12,13 +12,15 @@
                                     <h6>{{ $shop->name }}</h6>
                                 </div>
                                 <ul class="footer-contacts__contacts">
-{{--                                    <li><i class="footer-contacts__icon fas fa-globe-americas"></i> 715 Fake Street, New York 10021 USA</li>--}}
+                                    @if(!empty($shop->full_physical_address))
+                                        <li><i class="footer-contacts__icon fas fa-globe-americas"></i><address class="footer-address">{{ $shop->full_physical_address  }}</address></li>
+                                    @endif
                                     @if(!empty($shop->registration_number))
                                         <li><i class="footer-contacts__icon fas fa-indent"></i>{{ $shop->registration_number }}</li>
                                     @endif
 {{--                                    <li><i class="footer-contacts__icon far fa-envelope"></i> stroyka@example.com</li>--}}
                                     @foreach($shop->phones as $item)
-                                        <li><i class="footer-contacts__icon fas fa-mobile-alt"></i>{{ trans($item->operator) }} {{ $item->phone }}</li>
+                                        <li><i class="footer-contacts__icon fas fa-mobile-alt"></i>{{ trans($item->operator) }} <a href="tel:{{ $item->phone }}">{{ $item->phone }}</a></li>
                                     @endforeach
 {{--                                    <li><i class="footer-contacts__icon far fa-clock"></i> Mon-Sat 10:00pm - 7:00pm</li>--}}
                                 </ul>

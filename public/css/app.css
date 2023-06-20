@@ -15435,3 +15435,8 @@ html:not([dir=rtl]) .noUi-horizontal .noUi-origin {
 .white {
   color: #fff;
 }
+
+.footer-address {
+  display: inline-block;
+  margin: 0;
+}
