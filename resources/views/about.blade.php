@@ -19,7 +19,7 @@
                                     <div class="teammates__item teammate">
                                         @foreach($shop->images as $image)
                                             <div class="teammate__avatar">
-                                                <img src="http://admin.bel-instrument.by/storage/images/shops/instrument-torg/{{ $image->name }}" alt="">
+                                                <img src="http://admin.bel-instrument.by/storage/images/shops/{{$shop->slug}}/{{ $image->name }}" alt="">
                                             </div>
                                             @break
                                         @endforeach
