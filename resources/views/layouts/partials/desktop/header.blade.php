@@ -5,21 +5,18 @@
         <div class="site-header__topbar topbar">
             <div class="topbar__container container">
                 <div class="topbar__row">
-                    <div class="topbar__item topbar__item--link">
-                        <a class="topbar-link" href="#">{{ __('about_us') }}</a>
-                    </div>
+{{--                    <div class="topbar__item topbar__item--link">--}}
+{{--                        <a class="topbar-link" href="#">{{ __('about_us') }}</a>--}}
+{{--                    </div>--}}
                     <div class="topbar__item topbar__item--link">
                         <a class="topbar-link" href="{{ route('contact') }}">{{ __('contacts') }}</a>
                     </div>
-                    <div class="topbar__item topbar__item--link">
-                        <a class="topbar-link" href="#">{{ __('store_location') }}</a>
-                    </div>
-                    <div class="topbar__item topbar__item--link">
-                        <a class="topbar-link" href="#">{{ __('track_order') }}</a>
-                    </div>
-                    <div class="topbar__item topbar__item--link">
-                        <a class="topbar-link" href="#">{{ __('blog') }}</a>
-                    </div>
+{{--                    <div class="topbar__item topbar__item--link">--}}
+{{--                        <a class="topbar-link" href="#">{{ __('track_order') }}</a>--}}
+{{--                    </div>--}}
+{{--                    <div class="topbar__item topbar__item--link">--}}
+{{--                        <a class="topbar-link" href="#">{{ __('blog') }}</a>--}}
+{{--                    </div>--}}
                     <div class="topbar__spring"></div>
                 </div>
             </div>
@@ -627,41 +624,41 @@
                         <!-- .nav-links -->
                         <div class="nav-panel__nav-links nav-links">
                             <ul class="nav-links__list">
-                                <li class="nav-links__item  nav-links__item--has-submenu ">
-                                    <a class="nav-links__item-link" href="index.html">
-                                        <div class="nav-links__item-body">
-                                            Магазин
-                                            <svg class="nav-links__item-arrow" width="9px" height="6px">
-                                                <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>
-                                            </svg>
-                                        </div>
-                                    </a>
-                                    <div class="nav-links__submenu nav-links__submenu--type--menu">
-                                        <!-- .menu -->
-                                        <div class="menu menu--layout--classic ">
-                                            <div class="menu__submenus-container"></div>
-                                            <ul class="menu__list">
-                                                <li class="menu__item">
-                                                    <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
-                                                    <div class="menu__item-submenu-offset"></div>
-                                                    <a class="menu__item-link" href="index.html">
-                                                        О нас
-                                                    </a>
-                                                </li>
-                                                <li class="menu__item">
-                                                    <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
-                                                    <div class="menu__item-submenu-offset"></div>
-                                                    <a class="menu__item-link" href="index-2.html">
-                                                        Бренды
-                                                    </a>
-                                                </li>
-                                                <li class="menu__item">
-                                                    <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->
-                                                    <div class="menu__item-submenu-offset"></div>
-                                                    <a class="menu__item-link" href="index-3.html">
-                                                        Возвраты
-                                                    </a>
-                                                </li>
+{{--                                <li class="nav-links__item  nav-links__item--has-submenu ">--}}
+{{--                                    <a class="nav-links__item-link" href="index.html">--}}
+{{--                                        <div class="nav-links__item-body">--}}
+{{--                                            Магазин--}}
+{{--                                            <svg class="nav-links__item-arrow" width="9px" height="6px">--}}
+{{--                                                <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>--}}
+{{--                                            </svg>--}}
+{{--                                        </div>--}}
+{{--                                    </a>--}}
+{{--                                    <div class="nav-links__submenu nav-links__submenu--type--menu">--}}
+{{--                                        <!-- .menu -->--}}
+{{--                                        <div class="menu menu--layout--classic ">--}}
+{{--                                            <div class="menu__submenus-container"></div>--}}
+{{--                                            <ul class="menu__list">--}}
+{{--                                                <li class="menu__item">--}}
+{{--                                                    <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->--}}
+{{--                                                    <div class="menu__item-submenu-offset"></div>--}}
+{{--                                                    <a class="menu__item-link" href="index.html">--}}
+{{--                                                        О нас--}}
+{{--                                                    </a>--}}
+{{--                                                </li>--}}
+{{--                                                <li class="menu__item">--}}
+{{--                                                    <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->--}}
+{{--                                                    <div class="menu__item-submenu-offset"></div>--}}
+{{--                                                    <a class="menu__item-link" href="index-2.html">--}}
+{{--                                                        Бренды--}}
+{{--                                                    </a>--}}
+{{--                                                </li>--}}
+{{--                                                <li class="menu__item">--}}
+{{--                                                    <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->--}}
+{{--                                                    <div class="menu__item-submenu-offset"></div>--}}
+{{--                                                    <a class="menu__item-link" href="index-3.html">--}}
+{{--                                                        Возвраты--}}
+{{--                                                    </a>--}}
+{{--                                                </li>--}}
 {{--                                                <li class="menu__item">--}}
 {{--                                                    <!-- This is a synthetic element that allows to adjust the vertical offset of the submenu using CSS. -->--}}
 {{--                                                    <div class="menu__item-submenu-offset"></div>--}}
@@ -676,12 +673,12 @@
 {{--                                                        Offcanvas Cart--}}
 {{--                                                    </a>--}}
 {{--                                                </li>--}}
-                                            </ul>
-                                        </div>
-                                        <!-- .menu / end -->
-                                    </div>
-                                </li>
-                                <li class="nav-links__item  nav-links__item--has-submenu ">
+{{--                                            </ul>--}}
+{{--                                        </div>--}}
+{{--                                        <!-- .menu / end -->--}}
+{{--                                    </div>--}}
+{{--                                </li>--}}
+                                <li class="nav-links__item">
                                     <a class="nav-links__item-link" href="{{ route('contact') }}">
                                         <div class="nav-links__item-body">
                                             {{ __('contacts') }}
@@ -771,15 +768,15 @@
 {{--                                        <!-- .megamenu / end -->--}}
 {{--                                    </div>--}}
                                 </li>
-                                <li class="nav-links__item  nav-links__item--has-submenu ">
-                                    <a class="nav-links__item-link" href="shop-grid-3-columns-sidebar.html">
-                                        <div class="nav-links__item-body">
-                                            Доставка
+{{--                                <li class="nav-links__item  nav-links__item--has-submenu ">--}}
+{{--                                    <a class="nav-links__item-link" href="shop-grid-3-columns-sidebar.html">--}}
+{{--                                        <div class="nav-links__item-body">--}}
+{{--                                            Доставка--}}
 {{--                                            <svg class="nav-links__item-arrow" width="9px" height="6px">--}}
 {{--                                                <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>--}}
 {{--                                            </svg>--}}
-                                        </div>
-                                    </a>
+{{--                                        </div>--}}
+{{--                                    </a>--}}
 {{--                                    <div class="nav-links__submenu nav-links__submenu--type--menu">--}}
 {{--                                        <!-- .menu -->--}}
 {{--                                        <div class="menu menu--layout--classic ">--}}
@@ -940,16 +937,16 @@
 {{--                                        </div>--}}
 {{--                                        <!-- .menu / end -->--}}
 {{--                                    </div>--}}
-                                </li>
-                                <li class="nav-links__item  nav-links__item--has-submenu ">
-                                    <a class="nav-links__item-link" href="account-login.html">
-                                        <div class="nav-links__item-body">
-                                            Оплата
+{{--                                </li>--}}
+{{--                                <li class="nav-links__item  nav-links__item--has-submenu ">--}}
+{{--                                    <a class="nav-links__item-link" href="account-login.html">--}}
+{{--                                        <div class="nav-links__item-body">--}}
+{{--                                            Оплата--}}
 {{--                                            <svg class="nav-links__item-arrow" width="9px" height="6px">--}}
 {{--                                                <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>--}}
 {{--                                            </svg>--}}
-                                        </div>
-                                    </a>
+{{--                                        </div>--}}
+{{--                                    </a>--}}
                                     {{--                                        <div class="nav-links__submenu nav-links__submenu--type--menu">--}}
                                     {{--                                            <!-- .menu -->--}}
                                     {{--                                            <div class="menu menu--layout--classic ">--}}
@@ -1015,16 +1012,16 @@
                                     {{--                                            </div>--}}
                                     {{--                                            <!-- .menu / end -->--}}
                                     {{--                                        </div>--}}
-                                </li>
-                                <li class="nav-links__item">
-                                    <a class="nav-links__item-link" href="blog-classic.html">
-                                        <div class="nav-links__item-body">
-                                            Блог
+{{--                                </li>--}}
+{{--                                <li class="nav-links__item">--}}
+{{--                                    <a class="nav-links__item-link" href="blog-classic.html">--}}
+{{--                                        <div class="nav-links__item-body">--}}
+{{--                                            Блог--}}
 {{--                                            <svg class="nav-links__item-arrow" width="9px" height="6px">--}}
 {{--                                                <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>--}}
 {{--                                            </svg>--}}
-                                        </div>
-                                    </a>
+{{--                                        </div>--}}
+{{--                                    </a>--}}
 {{--                                    <div class="nav-links__submenu nav-links__submenu--type--menu">--}}
 {{--                                        <!-- .menu -->--}}
 {{--                                        <div class="menu menu--layout--classic ">--}}
@@ -1076,16 +1073,16 @@
 {{--                                        </div>--}}
 {{--                                        <!-- .menu / end -->--}}
 {{--                                    </div>--}}
-                                </li>
-                                <li class="nav-links__item  nav-links__item--has-submenu ">
-                                    <a class="nav-links__item-link" href="">
-                                        <div class="nav-links__item-body">
-                                            Сервис
+{{--                                </li>--}}
+{{--                                <li class="nav-links__item  nav-links__item--has-submenu ">--}}
+{{--                                    <a class="nav-links__item-link" href="">--}}
+{{--                                        <div class="nav-links__item-body">--}}
+{{--                                            Сервис--}}
 {{--                                            <svg class="nav-links__item-arrow" width="9px" height="6px">--}}
 {{--                                                <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>--}}
 {{--                                            </svg>--}}
-                                        </div>
-                                    </a>
+{{--                                        </div>--}}
+{{--                                    </a>--}}
 {{--                                    <div class="nav-links__submenu nav-links__submenu--type--menu">--}}
 {{--                                        <!-- .menu -->--}}
 {{--                                        <div class="menu menu--layout--classic ">--}}
@@ -1151,22 +1148,22 @@
 {{--                                        </div>--}}
 {{--                                        <!-- .menu / end -->--}}
 {{--                                    </div>--}}
-                                </li>
+{{--                                </li>--}}
                             </ul>
                         </div>
                         <!-- .nav-links / end -->
-                        <div class="nav-panel__indicators">
-                            <div class="indicator">
-                                <a href="wishlist.html" class="indicator__button">
-                                            <span class="indicator__area">
-                                                <svg width="20px" height="20px">
-                                                    <use xlink:href="images/sprite.svg#heart-20"></use>
-                                                </svg>
-                                                <span class="indicator__value">0</span>
-                                            </span>
-                                </a>
-                            </div>
-                        </div>
+{{--                        <div class="nav-panel__indicators">--}}
+{{--                            <div class="indicator">--}}
+{{--                                <a href="wishlist.html" class="indicator__button">--}}
+{{--                                            <span class="indicator__area">--}}
+{{--                                                <svg width="20px" height="20px">--}}
+{{--                                                    <use xlink:href="images/sprite.svg#heart-20"></use>--}}
+{{--                                                </svg>--}}
+{{--                                                <span class="indicator__value">0</span>--}}
+{{--                                            </span>--}}
+{{--                                </a>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
             </div>

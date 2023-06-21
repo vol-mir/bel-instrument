@@ -32,12 +32,12 @@
                         <div class="site-footer__widget footer-links">
                             <h5 class="footer-links__title">{{ __('information') }}</h5>
                             <ul class="footer-links__list">
-                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('about_us') }}</a></li>
-                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('delivery_information') }}</a></li>
-                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('privacy_policy') }}</a></li>
-                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('brands') }}</a></li>
+{{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('about_us') }}</a></li>--}}
+{{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('delivery_information') }}</a></li>--}}
+{{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('privacy_policy') }}</a></li>--}}
+{{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('brands') }}</a></li>--}}
                                 <li class="footer-links__item"><a href="{{ route('contact') }}" class="footer-links__link">{{ __('contact_us') }}</a></li>
-                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('returns') }}</a></li>
+{{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('returns') }}</a></li>--}}
                             </ul>
                         </div>
                     </div>
@@ -45,13 +45,13 @@
                         <div class="site-footer__widget footer-links">
                             <h5 class="footer-links__title">{{ __('my_account') }}</h5>
                             <ul class="footer-links__list">
-                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('store_location') }}</a></li>
-                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('order_history') }}</a></li>
-                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('wish_list') }}</a></li>
-                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('newsletter') }}</a></li>
-                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('specials') }}</a></li>
-                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('gift_certificates') }}</a></li>
-                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('affiliate') }}</a>
+{{--                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('store_location') }}</a></li>--}}
+{{--                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('order_history') }}</a></li>--}}
+{{--                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('wish_list') }}</a></li>--}}
+{{--                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('newsletter') }}</a></li>--}}
+{{--                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('specials') }}</a></li>--}}
+{{--                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('gift_certificates') }}</a></li>--}}
+{{--                                <li class="footer-links__item"><a href="" class="footer-links__link">{{ __('affiliate') }}</a>--}}
                                 </li>
                             </ul>
                         </div>
