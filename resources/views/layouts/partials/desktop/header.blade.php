@@ -26,7 +26,7 @@
             <div class="site-header__logo">
                 <a href="{{ route('home') }}">
                     <!-- logo -->
-                    <img width="180px" src="{{asset('images/logo.png')}}" alt="{{ $settings?->name }}">
+                    <img width="90px" src="{{asset('images/logo.png')}}" alt="{{ $settings?->name }}">
                     <!-- logo / end -->
                 </a>
             </div>
@@ -80,7 +80,7 @@
                     <div class="nav-panel__row">
                         <div class="nav-panel__departments">
                             <!-- .departments -->
-                            <div class="departments  {{ Route::is('home') ? 'departments--open' : '' }} departments--fixed "
+                            <div class="departments {{ Route::is('home') ? 'departments--open departments--fixed' : '' }}"
                                  data-departments-fixed-by=".block-slideshow">
                                 <div class="departments__body">
                                     <div class="departments__links-wrapper">
