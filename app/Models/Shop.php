@@ -11,7 +11,6 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use Illuminate\Support\Arr;
 use Illuminate\Support\Carbon;
 
 /**
@@ -24,6 +23,7 @@ use Illuminate\Support\Carbon;
  * @property mixed $physical_address
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
+ * @property string $google_map
  *
  * @method static Builder|Shop newModelQuery()
  * @method static Builder|Shop newQuery()
@@ -84,33 +84,8 @@ class Shop extends Model
         'youtube',
         'description',
         'keys',
+        'google_map',
     ];
-
-    public function getFullPhysicalAddressAttribute(): ?string
-    {
-        if (!$this->physical_address) {
-            return null;
-        }
-
-        $full = (string)Arr::get(json_decode($this->physical_address, true), 'zip_code');
-        if ($full) {
-            $full .= ', ';
-        }
-
-        $full .= Arr::get(json_decode($this->physical_address, true), 'city');
-        if ($full) {
-            $full .= ', ';
-        }
-
-        $full .= Arr::get(json_decode($this->physical_address, true), 'street');
-        if ($full) {
-            $full .= ', ';
-        }
-
-        $full .= Arr::get(json_decode($this->physical_address, true), 'house_number');
-
-        return $full;
-    }
 
     public function phones(): MorphMany
     {

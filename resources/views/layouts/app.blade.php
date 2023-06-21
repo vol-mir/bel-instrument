@@ -65,32 +65,32 @@
         <div class="mobilemenu__content">
             <ul class="mobile-links mobile-links--level--0" data-collapse
                 data-collapse-opened-class="mobile-links__item--open">
-                <li class="mobile-links__item" data-collapse-item>
-                    <div class="mobile-links__item-title">
-                        <a href="index.html" class="mobile-links__item-link">Магазин</a>
-                        <button class="mobile-links__item-toggle" type="button" data-collapse-trigger>
-                            <svg class="mobile-links__item-arrow" width="12px" height="7px">
-                                <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>
-                            </svg>
-                        </button>
-                    </div>
-                    <div class="mobile-links__item-sub-links" data-collapse-content>
-                        <ul class="mobile-links mobile-links--level--1">
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="index.html" class="mobile-links__item-link">О нас</a>
-                                </div>
-                            </li>
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="index-2.html" class="mobile-links__item-link">Бренды</a>
-                                </div>
-                            </li>
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="index-3.html" class="mobile-links__item-link">Возвраты</a>
-                                </div>
-                            </li>
+{{--                <li class="mobile-links__item" data-collapse-item>--}}
+{{--                    <div class="mobile-links__item-title">--}}
+{{--                        <a href="{{ route('home') }}" class="mobile-links__item-link">Магазин</a>--}}
+{{--                        <button class="mobile-links__item-toggle" type="button" data-collapse-trigger>--}}
+{{--                            <svg class="mobile-links__item-arrow" width="12px" height="7px">--}}
+{{--                                <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>--}}
+{{--                            </svg>--}}
+{{--                        </button>--}}
+{{--                    </div>--}}
+{{--                    <div class="mobile-links__item-sub-links" data-collapse-content>--}}
+{{--                        <ul class="mobile-links mobile-links--level--1">--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="{{ route('about') }}" class="mobile-links__item-link">{{ __('about_us') }}</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="index-2.html" class="mobile-links__item-link">Бренды</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="index-3.html" class="mobile-links__item-link">Возвраты</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
 {{--                            <li class="mobile-links__item" data-collapse-item>--}}
 {{--                                <div class="mobile-links__item-title">--}}
 {{--                                    <a href="index-4.html" class="mobile-links__item-link">Home 2 Finder</a>--}}
@@ -101,28 +101,28 @@
 {{--                                    <a href="offcanvas-cart.html" class="mobile-links__item-link">Offcanvas Cart</a>--}}
 {{--                                </div>--}}
 {{--                            </li>--}}
-                        </ul>
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </li>--}}
+                <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                        <a href="{{ route('about') }}" class="mobile-links__item-link">{{ __('about_us') }}</a>
                     </div>
                 </li>
                 <li class="mobile-links__item" data-collapse-item>
                     <div class="mobile-links__item-title">
-                        <a href="" class="mobile-links__item-link">Контакты</a>
-                        {{--                        <button class="mobile-links__item-toggle" type="button" data-collapse-trigger>--}}
-                        {{--                            <svg class="mobile-links__item-arrow" width="12px" height="7px">--}}
-                        {{--                                <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>--}}
-                        {{--                            </svg>--}}
-                        {{--                        </button>--}}
+                        <a href="{{ route('contact') }}" class="mobile-links__item-link">{{ __('contacts') }}</a>
                     </div>
                 </li>
-                <li class="mobile-links__item" data-collapse-item>
-                    <div class="mobile-links__item-title">
-                        <a href="" class="mobile-links__item-link">Доставка</a>
+{{--                <li class="mobile-links__item" data-collapse-item>--}}
+{{--                    <div class="mobile-links__item-title">--}}
+{{--                        <a href="" class="mobile-links__item-link">Доставка</a>--}}
 {{--                        <button class="mobile-links__item-toggle" type="button" data-collapse-trigger>--}}
 {{--                            <svg class="mobile-links__item-arrow" width="12px" height="7px">--}}
 {{--                                <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>--}}
 {{--                            </svg>--}}
 {{--                        </button>--}}
-                    </div>
+{{--                    </div>--}}
 {{--                    <div class="mobile-links__item-sub-links" data-collapse-content>--}}
 {{--                        <ul class="mobile-links mobile-links--level--1">--}}
 {{--                            <li class="mobile-links__item" data-collapse-item>--}}
@@ -205,16 +205,16 @@
 {{--                            </li>--}}
 {{--                        </ul>--}}
 {{--                    </div>--}}
-                </li>
-                <li class="mobile-links__item" data-collapse-item>
-                    <div class="mobile-links__item-title">
-                        <a href="shop-grid-3-columns-sidebar.html" class="mobile-links__item-link">Оплата</a>
+{{--                </li>--}}
+{{--                <li class="mobile-links__item" data-collapse-item>--}}
+{{--                    <div class="mobile-links__item-title">--}}
+{{--                        <a href="shop-grid-3-columns-sidebar.html" class="mobile-links__item-link">Оплата</a>--}}
 {{--                        <button class="mobile-links__item-toggle" type="button" data-collapse-trigger>--}}
 {{--                            <svg class="mobile-links__item-arrow" width="12px" height="7px">--}}
 {{--                                <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>--}}
 {{--                            </svg>--}}
 {{--                        </button>--}}
-                    </div>
+{{--                    </div>--}}
 {{--                    <div class="mobile-links__item-sub-links" data-collapse-content>--}}
 {{--                        <ul class="mobile-links mobile-links--level--1">--}}
 {{--                            <li class="mobile-links__item" data-collapse-item>--}}
@@ -329,7 +329,7 @@
 {{--                            </li>--}}
 {{--                        </ul>--}}
 {{--                    </div>--}}
-                </li>
+{{--                </li>--}}
 {{--                <li class="mobile-links__item" data-collapse-item>--}}
 {{--                    <div class="mobile-links__item-title">--}}
 {{--                        <a href="account-login.html" class="mobile-links__item-link">Account</a>--}}
@@ -385,15 +385,15 @@
 {{--                        </ul>--}}
 {{--                    </div>--}}
 {{--                </li>--}}
-                <li class="mobile-links__item" data-collapse-item>
-                    <div class="mobile-links__item-title">
-                        <a href="blog-classic.html" class="mobile-links__item-link">Блог</a>
+{{--                <li class="mobile-links__item" data-collapse-item>--}}
+{{--                    <div class="mobile-links__item-title">--}}
+{{--                        <a href="blog-classic.html" class="mobile-links__item-link">Блог</a>--}}
 {{--                        <button class="mobile-links__item-toggle" type="button" data-collapse-trigger>--}}
 {{--                            <svg class="mobile-links__item-arrow" width="12px" height="7px">--}}
 {{--                                <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>--}}
 {{--                            </svg>--}}
 {{--                        </button>--}}
-                    </div>
+{{--                    </div>--}}
 {{--                    <div class="mobile-links__item-sub-links" data-collapse-content>--}}
 {{--                        <ul class="mobile-links mobile-links--level--1">--}}
 {{--                            <li class="mobile-links__item" data-collapse-item>--}}
@@ -430,60 +430,60 @@
 {{--                            </li>--}}
 {{--                        </ul>--}}
 {{--                    </div>--}}
-                </li>
-                <li class="mobile-links__item" data-collapse-item>
-                    <div class="mobile-links__item-title">
-                        <a href="" class="mobile-links__item-link">Сервис</a>
+{{--                </li>--}}
+{{--                <li class="mobile-links__item" data-collapse-item>--}}
+{{--                    <div class="mobile-links__item-title">--}}
+{{--                        <a href="" class="mobile-links__item-link">Сервис</a>--}}
 {{--                        <button class="mobile-links__item-toggle" type="button" data-collapse-trigger>--}}
 {{--                            <svg class="mobile-links__item-arrow" width="12px" height="7px">--}}
 {{--                                <use xlink:href="images/sprite.svg#arrow-rounded-down-12x7"></use>--}}
 {{--                            </svg>--}}
 {{--                        </button>--}}
-                    </div>
-                    <div class="mobile-links__item-sub-links" data-collapse-content>
-                        <ul class="mobile-links mobile-links--level--1">
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="#" class="mobile-links__item-link">{{ __('about_us') }}</a>
-                                </div>
-                            </li>
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="{{ route('contact') }}" class="mobile-links__item-link">{{ __('contact_us') }}</a>
-                                </div>
-                            </li>
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="#" class="mobile-links__item-link">{{ __('contact_us_alt') }}</a>
-                                </div>
-                            </li>
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="#" class="mobile-links__item-link">404</a>
-                                </div>
-                            </li>
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="#" class="mobile-links__item-link">{{ __('terms_and_conditions') }}</a>
-                                </div>
-                            </li>
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="#" class="mobile-links__item-link">{{ __('faq') }}</a>
-                                </div>
-                            </li>
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="#" class="mobile-links__item-link">{{ __('components') }}</a>
-                                </div>
-                            </li>
-                            <li class="mobile-links__item" data-collapse-item>
-                                <div class="mobile-links__item-title">
-                                    <a href="#" class="mobile-links__item-link">{{ __('typography') }}</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+{{--                    </div>--}}
+{{--                    <div class="mobile-links__item-sub-links" data-collapse-content>--}}
+{{--                        <ul class="mobile-links mobile-links--level--1">--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="{{ route('about') }}" class="mobile-links__item-link">{{ __('about_us') }}</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="{{ route('contact') }}" class="mobile-links__item-link">{{ __('contact_us') }}</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="#" class="mobile-links__item-link">{{ __('contact_us_alt') }}</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="#" class="mobile-links__item-link">404</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="#" class="mobile-links__item-link">{{ __('terms_and_conditions') }}</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="#" class="mobile-links__item-link">{{ __('faq') }}</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="#" class="mobile-links__item-link">{{ __('components') }}</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                            <li class="mobile-links__item" data-collapse-item>--}}
+{{--                                <div class="mobile-links__item-title">--}}
+{{--                                    <a href="#" class="mobile-links__item-link">{{ __('typography') }}</a>--}}
+{{--                                </div>--}}
+{{--                            </li>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
                 </li>
 {{--                <li class="mobile-links__item" data-collapse-item>--}}
 {{--                    <div class="mobile-links__item-title">--}}

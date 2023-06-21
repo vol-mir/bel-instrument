@@ -32,7 +32,7 @@
                         <div class="site-footer__widget footer-links">
                             <h5 class="footer-links__title">{{ __('information') }}</h5>
                             <ul class="footer-links__list">
-{{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('about_us') }}</a></li>--}}
+                                <li class="footer-links__item"><a href="{{ route('about') }}" class="footer-links__link">{{ __('about_us') }}</a></li>
 {{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('delivery_information') }}</a></li>--}}
 {{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('privacy_policy') }}</a></li>--}}
 {{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('brands') }}</a></li>--}}
