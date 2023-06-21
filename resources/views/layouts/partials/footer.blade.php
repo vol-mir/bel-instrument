@@ -36,7 +36,7 @@
                                 <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('delivery_information') }}</a></li>
                                 <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('privacy_policy') }}</a></li>
                                 <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('brands') }}</a></li>
-                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('contact_us') }}</a></li>
+                                <li class="footer-links__item"><a href="{{ route('contact') }}" class="footer-links__link">{{ __('contact_us') }}</a></li>
                                 <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('returns') }}</a></li>
                             </ul>
                         </div>

@@ -12,4 +12,9 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function contact(): View
+    {
+        return view('contact');
+    }
 }

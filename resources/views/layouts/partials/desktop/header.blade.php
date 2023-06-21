@@ -9,7 +9,7 @@
                         <a class="topbar-link" href="#">{{ __('about_us') }}</a>
                     </div>
                     <div class="topbar__item topbar__item--link">
-                        <a class="topbar-link" href="#">{{ __('contacts') }}</a>
+                        <a class="topbar-link" href="{{ route('contact') }}">{{ __('contacts') }}</a>
                     </div>
                     <div class="topbar__item topbar__item--link">
                         <a class="topbar-link" href="#">{{ __('store_location') }}</a>
@@ -83,7 +83,7 @@
                     <div class="nav-panel__row">
                         <div class="nav-panel__departments">
                             <!-- .departments -->
-                            <div class="departments  departments--open departments--fixed "
+                            <div class="departments  {{ Route::is('home') ? 'departments--open' : '' }} departments--fixed "
                                  data-departments-fixed-by=".block-slideshow">
                                 <div class="departments__body">
                                     <div class="departments__links-wrapper">
@@ -682,9 +682,9 @@
                                     </div>
                                 </li>
                                 <li class="nav-links__item  nav-links__item--has-submenu ">
-                                    <a class="nav-links__item-link" href="">
+                                    <a class="nav-links__item-link" href="{{ route('contact') }}">
                                         <div class="nav-links__item-body">
-                                            Контакты
+                                            {{ __('contacts') }}
 {{--                                            <svg class="nav-links__item-arrow" width="9px" height="6px">--}}
 {{--                                                <use xlink:href="images/sprite.svg#arrow-rounded-down-9x6"></use>--}}
 {{--                                            </svg>--}}
