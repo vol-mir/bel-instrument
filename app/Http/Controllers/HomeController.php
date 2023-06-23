@@ -4,13 +4,16 @@ declare(strict_types=1);
 
 namespace App\Http\Controllers;
 
+use App\Models\Brand;
 use Illuminate\View\View;
 
 class HomeController extends Controller
 {
     public function home(): View
     {
-        return view('home');
+        return view('home', [
+            'brands' => Brand::all(),
+        ]);
     }
 
     public function contact(): View
