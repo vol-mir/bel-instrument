@@ -27,6 +27,10 @@ class EventServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        Event::listen('homeHasViewed', function ($setting) {
+            info('increment');
+            $setting->increment('view_count');
+        });
     }
 
     /**

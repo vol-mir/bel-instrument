@@ -5,12 +5,16 @@ declare(strict_types=1);
 namespace App\Http\Controllers;
 
 use App\Models\Brand;
+use App\Models\Setting;
 use Illuminate\View\View;
 
 class HomeController extends Controller
 {
     public function home(): View
     {
+        $setting = Setting::where('slug', 'base')->firstOrFail();
+        event('homeHasViewed', $setting);
+
         return view('home', [
             'brands' => Brand::all(),
         ]);
