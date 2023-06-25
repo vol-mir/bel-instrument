@@ -106,6 +106,11 @@
 {{--                </li>--}}
                 <li class="mobile-links__item" data-collapse-item>
                     <div class="mobile-links__item-title">
+                        <a href="{{ route('home') }}" class="mobile-links__item-link">{{ __('home') }}</a>
+                    </div>
+                </li>
+                <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
                         <a href="{{ route('about') }}" class="mobile-links__item-link">{{ __('about_us') }}</a>
                     </div>
                 </li>
