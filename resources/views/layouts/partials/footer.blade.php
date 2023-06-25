@@ -18,6 +18,9 @@
                                     @if(!empty($shop->registration_number))
                                         <li><i class="footer-contacts__icon fas fa-indent"></i>{{ $shop->registration_number }}</li>
                                     @endif
+                                    @if(!empty($shop->registration_number))
+                                       <li><i class="footer-contacts__icon fas fa-mail-bulk"></i>{{ $shop->email }}</li>
+                                    @endif
 {{--                                    <li><i class="footer-contacts__icon far fa-envelope"></i> stroyka@example.com</li>--}}
                                     @foreach($shop->phones as $item)
                                         <li><i class="footer-contacts__icon fas fa-mobile-alt"></i>{{ trans($item->operator) }} <a href="tel:{{ $item->phone }}">{{ $item->phone }}</a></li>
