@@ -25,6 +25,16 @@
     <link rel="icon" href="{{asset('dummy/images/favicon.ico')}}" type="image/x-icon"/>
     <link rel="shortcut icon" type="image/x-icon" href="{{asset('dummy/images/favicon.png')}}"/>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NE4ZPE9SFX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-NE4ZPE9SFX');
+    </script>
+
 </head>
 
 <body>
