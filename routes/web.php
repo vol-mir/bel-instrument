@@ -22,4 +22,5 @@ Route::middleware('guest')->group(function () {
     Route::get('/about-us', [HomeController::class, 'about'])->name('about');
     Route::get('/terms', [HomeController::class, 'terms'])->name('terms');
     Route::get('/return-products', [HomeController::class, 'returnProducts'])->name('returnProducts');
+    Route::get('/delivery', [HomeController::class, 'delivery'])->name('delivery');
 });

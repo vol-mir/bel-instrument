@@ -43,7 +43,7 @@
                                 <li class="footer-links__item"><a href="{{ route('contact') }}" class="footer-links__link">{{ __('contact_us') }}</a></li>
                                 <li class="footer-links__item"><a href="{{ route('terms') }}" class="footer-links__link">{{ __('terms') }}</a></li>
                                 <li class="footer-links__item"><a href="{{ route('returnProducts') }}" class="footer-links__link">{{ __('return_products') }}</a></li>
-{{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('returns') }}</a></li>--}}
+                                <li class="footer-links__item"><a href="{{ route('delivery') }}" class="footer-links__link">{{ __('delivery') }}</a></li>
                             </ul>
                         </div>
                     </div>
@@ -162,7 +162,7 @@
             <div class="site-footer__bottom">
                 <div class="site-footer__copyright">
                     <!-- copyright -->
-                    Copyright &copy; 2022-{{ now()->year }} <a href="{{ route('home') }}">bel-instrument.by</a>. All rights reserved.
+                    Copyright &copy; 2022-{{ now()->year }} <a href="{{ route('home') }}">bel-instrument.by</a>. Все права защищены. Публикация информации с сайта без разрешения правообладателя запрещена.
                     <!-- copyright / end -->
                 </div>
             </div>

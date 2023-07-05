@@ -76,6 +76,11 @@
                         <a href="{{ route('returnProducts') }}" class="mobile-links__item-link">{{ __('return_products') }}</a>
                     </div>
                 </li>
+                <li class="mobile-links__item" data-collapse-item>
+                    <div class="mobile-links__item-title">
+                        <a href="{{ route('delivery') }}" class="mobile-links__item-link">{{ __('delivery') }}</a>
+                    </div>
+                </li>
             </ul>
         </div>
     </div>

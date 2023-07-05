@@ -39,4 +39,9 @@ class HomeController extends Controller
     {
         return view('return_products');
     }
+
+    public function delivery(): View
+    {
+        return view('delivery');
+    }
 }
