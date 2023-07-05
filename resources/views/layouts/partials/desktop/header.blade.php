@@ -11,6 +11,9 @@
                     <div class="topbar__item topbar__item--link">
                         <a class="topbar-link" href="{{ route('contact') }}">{{ __('contacts') }}</a>
                     </div>
+                    <div class="topbar__item topbar__item--link">
+                        <a class="topbar-link" href="{{ route('returnProducts') }}">{{ __('return_products') }}</a>
+                    </div>
                     <div class="topbar__spring"></div>
                 </div>
             </div>

@@ -42,6 +42,7 @@
 {{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('brands') }}</a></li>--}}
                                 <li class="footer-links__item"><a href="{{ route('contact') }}" class="footer-links__link">{{ __('contact_us') }}</a></li>
                                 <li class="footer-links__item"><a href="{{ route('terms') }}" class="footer-links__link">{{ __('terms') }}</a></li>
+                                <li class="footer-links__item"><a href="{{ route('returnProducts') }}" class="footer-links__link">{{ __('return_products') }}</a></li>
 {{--                                <li class="footer-links__item"><a href="#" class="footer-links__link">{{ __('returns') }}</a></li>--}}
                             </ul>
                         </div>
