@@ -217,6 +217,20 @@
                                         </div>
                                     </a>
                                 </li>
+                                <li class="nav-links__item">
+                                    <a class="nav-links__item-link" href="{{ route('returnProducts') }}">
+                                        <div class="nav-links__item-body">
+                                            {{ __('return_products') }}
+                                        </div>
+                                    </a>
+                                </li>
+                                <li class="nav-links__item">
+                                    <a class="nav-links__item-link" href="{{ route('delivery') }}">
+                                        <div class="nav-links__item-body">
+                                            {{ __('delivery') }}
+                                        </div>
+                                    </a>
+                                </li>
                             </ul>
                         </div>
                     </div>

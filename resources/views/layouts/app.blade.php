@@ -22,8 +22,8 @@
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- FAVICONS ICON -->
-    <link rel="icon" href="{{asset('dummy/images/favicon.ico')}}" type="image/x-icon"/>
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('dummy/images/favicon.png')}}"/>
+    <link rel="icon" href="{{asset('favicon.ico')}}" type="image/x-icon"/>
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('favicon.png')}}"/>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NE4ZPE9SFX"></script>
