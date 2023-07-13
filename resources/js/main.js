@@ -148,7 +148,10 @@
                 768: {items: 4},
                 576: {items: 3},
                 0: {items: 2}
-            }
+            },
+            autoplay: true,
+            autoplayTimeout: 7000,
+            autoplayHoverPause: true
         });
     });
 
