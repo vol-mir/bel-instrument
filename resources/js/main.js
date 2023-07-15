@@ -323,7 +323,10 @@
                 dots: false,
                 loop: true,
                 stagePadding: 1,
-                rtl: isRTL()
+                rtl: isRTL(),
+                autoplay: true,
+                autoplayTimeout: 9000,
+                autoplayHoverPause: true
             };
             const layoutOptions = {
                 'grid-4': {

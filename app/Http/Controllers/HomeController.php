@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace App\Http\Controllers;
 
 use App\Models\Brand;
+use App\Models\Product;
 use App\Models\Setting;
 use Illuminate\View\View;
 
@@ -17,6 +18,7 @@ class HomeController extends Controller
 
         return view('home', [
             'brands' => Brand::all(),
+            'products' => Product::all(),
         ]);
     }
 
