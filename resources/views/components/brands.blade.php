@@ -5,9 +5,9 @@
                 @foreach($brands as $brand)
                     <div class="block-brands__item">
                         @if ($brand->url)
-                            <a href="{{ $brand->url }}"><img class="brand-image" src="/storage/images/brands/{{ $brand->name }}" alt="{{ $brand->description }}"></a>
+                            <a href="{{ $brand->url }}"><img class="brand-image" width="100%" src="/storage/images/brands/{{ $brand->name }}" alt="{{ $brand->description }}"></a>
                         @else
-                            <img class="brand-image" src="/storage/images/brands/{{ $brand->name }}" alt="{{ $brand->description }}">
+                            <img class="brand-image" width="100%" src="/storage/images/brands/{{ $brand->name }}" alt="{{ $brand->description }}">
                         @endif
                     </div>
                 @endforeach

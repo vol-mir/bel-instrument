@@ -39,7 +39,7 @@ class HomeController extends Controller
 
     public function returnProducts(): View
     {
-        return view('return_products');
+        return view('return-products');
     }
 
     public function delivery(): View
