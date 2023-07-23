@@ -26,7 +26,7 @@
             <div class="site-header__logo">
                 <a href="{{ route('home') }}">
                     <!-- logo -->
-                    <img width="90px" src="{{asset('images/logo.png')}}" alt="{{ $settings?->name }}">
+                    <img width="90" height="90" src="{{asset('images/logo.png')}}" alt="{{ $settings?->name }}">
                     <!-- logo / end -->
                 </a>
             </div>

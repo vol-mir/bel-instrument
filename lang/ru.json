@@ -31,5 +31,7 @@
     "products": "Все товары",
     "menu": "Меню",
     "return_products": "Возврат товара",
-    "delivery": "Доставка"
+    "delivery": "Доставка",
+    "featured_products": "Рекомендуемые товары",
+    "all": "Все"
 }

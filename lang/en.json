@@ -30,5 +30,7 @@
     "products": "All products",
     "menu": "Menu",
     "return_products": "Return products",
-    "delivery": "Delivery"
+    "delivery": "Delivery",
+    "featured_products": "Featured products",
+    "all": "All"
 }
