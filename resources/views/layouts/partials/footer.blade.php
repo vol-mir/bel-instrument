@@ -86,6 +86,7 @@
                                         <li class="social-links__item">
                                             <a class="social-links__link social-links__link--type--telegram"
                                                href="{{ $settings->telegram }}"
+                                               aria-label="Telegram"
                                                target="_blank">
                                                 <i class="fas fa-mouse-pointer"></i>
                                             </a>
@@ -96,6 +97,7 @@
                                         <li class="social-links__item">
                                             <a class="social-links__link social-links__link--type--viber"
                                                href="{{ $settings->viber }}"
+                                               aria-label="Viber"
                                                target="_blank">
                                                 <i class="fas fa-square"></i>
                                             </a>
@@ -106,6 +108,7 @@
                                         <li class="social-links__item">
                                             <a class="social-links__link social-links__link--type--vk"
                                                href="{{ $settings->vk }}"
+                                               aria-label="VK"
                                                target="_blank">
                                                 <i class="fas fa-kiwi-bird"></i>
                                             </a>
@@ -116,6 +119,7 @@
                                         <li class="social-links__item">
                                             <a class="social-links__link social-links__link--type--instagram"
                                                href="{{ $settings->instagram }}"
+                                               aria-label="Instagram"
                                                target="_blank">
                                                 <i class="fab fa-instagram"></i>
                                             </a>
@@ -126,6 +130,7 @@
                                         <li class="social-links__item">
                                             <a class="social-links__link social-links__link--type--facebook"
                                                href="{{ $settings->facebook }}"
+                                               aria-label="Facebook"
                                                target="_blank">
                                                 <i class="fab fa-facebook-f"></i>
                                             </a>
@@ -136,6 +141,7 @@
                                         <li class="social-links__item">
                                             <a class="social-links__link social-links__link--type--ok"
                                                href="{{ $settings->ok }}"
+                                               aria-label="OK"
                                                target="_blank">
                                                 <i class="fab fa-odnoklassniki"></i>
                                             </a>
@@ -146,6 +152,7 @@
                                         <li class="social-links__item">
                                             <a class="social-links__link social-links__link--type--youtube"
                                                href="{{ $settings->youtube }}"
+                                               aria-label="Youtube"
                                                target="_blank">
                                                 <i class="fab fa-youtube"></i>
                                             </a>
