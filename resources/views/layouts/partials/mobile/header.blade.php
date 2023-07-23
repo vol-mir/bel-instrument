@@ -10,7 +10,7 @@
                             <use xlink:href="images/sprite.svg#menu-18x14"></use>
                         </svg>
                     </button>
-                    <img width="40px" src="{{asset('images/logo.png')}}" alt="{{ $settings?->name }}">
+                    <img width="40" height="40" src="{{asset('images/logo.png')}}" alt="{{ $settings?->name }}">
                     <div class="search search--location--mobile-header mobile-header__search">
                         <div class="search__body">
                             <form class="search__form" action="">
